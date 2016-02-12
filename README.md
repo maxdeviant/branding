@@ -89,7 +89,7 @@ An absolute or relative URL to the image to use as the application's favicon.
 
 ### Partner Logo
 
-An absolute or relative URL to the image to display as logo for the partner.
+An absolute or relative URL to the image to display as the logo for the partner.
 
 **Example:**
 
