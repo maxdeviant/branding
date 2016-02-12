@@ -333,8 +333,13 @@ It is also possible to use custom email templates.
 
 ![Default Email Template Screenshot](https://raw.githubusercontent.com/remarksoftware/branding/master/images/default-email-template.png)
 
+**Default Alert Email Template**
+
+![Default Alert Email Template Screenshot](https://raw.githubusercontent.com/remarksoftware/branding/master/images/default-alert-email-template.png)
+
 ### Table of Contents
 - [Default Email Properties](#default-email-properties)
+    - [Theme Color](#theme-color)
     - [Application Name](#application-name)
     - [Email Summary](#email-summary)
     - [Header](#header)
@@ -342,12 +347,15 @@ It is also possible to use custom email templates.
     - [Body](#body)
     - [Notes](#notes)
     - [Year](#year)
-    - [Company](#company)
     - [Footer](#footer)
 
 ### Default Email Properties
 
 The default email templates can be customized using an existing set of properties, which can be modified on a per-category basis.
+
+### Theme Color
+
+A valid CSS color to use to theme the email.
 
 #### Application Name
 
@@ -375,11 +383,7 @@ Any additional notes for the email recipient.
 
 #### Year
 
-The current calendar year.
-
-#### Company
-
-The name of the company.
+This value will default to the current year.
 
 #### Footer
 
