@@ -1,8 +1,20 @@
 # Email Templates
 
-Remark Test Grading Cloud Edition comes with default email templates which will be used when sending email notifications.
+Remark Test Grading Cloud Edition comes with default email templates which will be used when sending email notifications. These default templates are able to be customized using the provided set of properties.
 
 It is also possible to use custom email templates.
+
+## Table of Contents
+- [Default Email Properties](#default-email-properties)
+    - [Application Name](#application-name)
+    - [Email Summary](#email-summary)
+    - [Header](#header)
+    - [Title](#title)
+    - [Body](#body)
+    - [Notes](#notes)
+    - [Year](#year)
+    - [Company](#company)
+    - [Footer](#footer)
 
 ## Default Email Properties
 

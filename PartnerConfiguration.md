@@ -1,7 +1,9 @@
 # Partner Configuration
 
+Remark Test Grading Cloud Edition is able to be configured for an individual partner.
+
 ## Table of Contents
-- [Partner Configuration](#partner-configuration)
+- [Customizable Fields](#customizable-fields)
     - [Partner Name](#partner-name)
     - [Partner Short Name](#partner-short-name)
     - [Product Name](#product-name)
@@ -23,7 +25,7 @@
     - [Host Name](#host-name)
     - [Incoming Email Domain](#incoming-email-domain)
 
-## Partner Configuration
+## Customizable Fields
 
 Remark Test Grading Cloud Edition allows partners to customize the following fields when branding the application:
 
