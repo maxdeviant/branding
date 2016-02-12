@@ -384,3 +384,7 @@ The name of the company.
 #### Footer
 
 The footer for the email.
+
+---
+
+&copy; 2016 Gravic, Inc.
