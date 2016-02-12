@@ -316,6 +316,8 @@ The visual styles of Remark Test Grading Cloud Edition are able to be customized
 ### Table of Contents
 - [Themeable Elements](#themeable-elements)
     - [Header](#header)
+    - [Breadcrumb Bar](#breadcrumb-bar)
+    - [Navigation Menu](#navigation-menu)
     - [Main Application](#main-application)
     - [Footer](#footer)
 
@@ -327,24 +329,54 @@ The following elements within the application are currently eligible for theming
 
 - Background Color
 - Link Color
-- Link Hover Color
+- Link Color (Hovered)
+- Partner Logo
+    - This displays the image set in the [Partner Logo](#partner-logo) in the partner configuration.
 
 **Header Screenshot**
 
 ![Header Screenshot](https://raw.githubusercontent.com/remarksoftware/branding/master/images/header.png)
+
+### Breadcrumb Bar
+
+- Background Color
+- Primary Text Color
+- Link Color
+- Link Color (Hovered)
+- Bottom Border Color
+
+**Breadcrumb Bar Screenshot**
+
+![Breadcrumb Bar Screenshot](https://raw.githubusercontent.com/remarksoftware/branding/master/images/breadcrumb-bar.png)
+
+#### Navigation Menu
+
+- Background Color
+- Button Color
+- Button Color (Hovered)
+- Button Background Color
+- Button Background Color (Hovered)
+
+**Navigation Menu Screenshot**
+
+![Navigation Menu Screenshot](https://raw.githubusercontent.com/remarksoftware/branding/master/images/navigation-menu.png)
 
 #### Main Application
 
 - Background Color
 - Primary Text Color
 - Link Color
-- Link Hover Color
+- Link Color (Hovered)
+- Tooltip Color
+- Tooltip Background Color
+- Alert Color
+- Alert Background Color
 
 #### Footer
 
 - Background Color
 - Link Color
-- Link Hover Color
+- Link Color (Hovered)
 
 **Footer Screenshot**
 
