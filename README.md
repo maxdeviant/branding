@@ -452,4 +452,4 @@ The footer for the email.
 
 ---
 
-&copy; 2016 Gravic, Inc.
+*&copy; 2016 Gravic, Inc.*
