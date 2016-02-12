@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Partner Configuration](#partner-configuration)
+- [Application Theming](#application-theming)
 - [Email Templates](#email-templates)
 
 ## Partner Configuration
@@ -50,6 +51,8 @@ The full name of the partner.
 #### Partner Short Name
 
 The shortened name of the partner, if applicable.
+
+If no shortened name is required, this property should be the same as the [Partner Name](#partner-name).
 
 **Example:**
 
@@ -275,9 +278,54 @@ The domain to allow email submissions from.
 }
 ```
 
+---
+
+## Application Theming
+
+The visual styles of Remark Test Grading Cloud Edition are able to be customized through the use of partner-specific themes.
+
+### Table of Contents
+- [Themeable Elements](#themeable-elements)
+    - [Header Bar](#header-bar)
+    - [Main Application](#main-application)
+    - [Footer Bar](#footer-bar)
+
+### Themeable Elements
+
+The following elements within the application are currently eligible for theming:
+
+#### Header Bar
+
+- Background Color
+- Link Color
+- Link Hover Color
+
+![Header Screenshot](images/header.png)
+
+#### Main Application
+
+- Background Color
+- Primary Text Color
+- Link Color
+- Link Hover Color
+
+#### Footer Bar
+
+- Background Color
+- Link Color
+- Link Hover Color
+
+![Footer Screenshot](images/footer.png)
+
+---
+
 ## Email Templates
 
 Remark Test Grading Cloud Edition comes with default email templates which will be used when sending email notifications. These default templates are able to be customized using the provided set of properties.
+
+**Default Email Template**
+
+![Default Email Template Screenshot](images/default-email-template.png)
 
 It is also possible to use custom email templates.
 
