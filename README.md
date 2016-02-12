@@ -4,11 +4,11 @@
 - [Partner Configuration](#partner-configuration)
 - [Email Templates](#email-templates)
 
-# Partner Configuration
+## Partner Configuration
 
 Remark Test Grading Cloud Edition is able to be configured for an individual partner.
 
-## Table of Contents
+### Table of Contents
 - [Customizable Fields](#customizable-fields)
     - [Partner Name](#partner-name)
     - [Partner Short Name](#partner-short-name)
@@ -31,11 +31,11 @@ Remark Test Grading Cloud Edition is able to be configured for an individual par
     - [Host Name](#host-name)
     - [Incoming Email Domain](#incoming-email-domain)
 
-## Customizable Fields
+### Customizable Fields
 
 Remark Test Grading Cloud Edition allows partners to customize the following fields when branding the application:
 
-### Partner Name
+#### Partner Name
 
 The full name of the partner.
 
@@ -47,7 +47,7 @@ The full name of the partner.
 }
 ```
 
-### Partner Short Name
+#### Partner Short Name
 
 The shortened name of the partner, if applicable.
 
@@ -59,7 +59,7 @@ The shortened name of the partner, if applicable.
 }
 ```
 
-### Product Name
+#### Product Name
 
 The name of the product.
 
@@ -71,7 +71,7 @@ The name of the product.
 }
 ```
 
-### Product Description
+#### Product Description
 
 A short description of the product.
 
@@ -83,7 +83,7 @@ A short description of the product.
 }
 ```
 
-### Favicon (Bookmark Icon)
+#### Favicon (Bookmark Icon)
 
 An absolute or relative URL to the image to use as the application's favicon.
 
@@ -95,7 +95,7 @@ An absolute or relative URL to the image to use as the application's favicon.
 }
 ```
 
-### Partner Logo
+#### Partner Logo
 
 An absolute or relative URL to the image to display as the logo for the partner.
 
@@ -107,7 +107,7 @@ An absolute or relative URL to the image to display as the logo for the partner.
 }
 ```
 
-### Contact Link
+#### Contact Link
 
 An absolute URL to the "Contact" page for the partner.
 
@@ -119,7 +119,7 @@ An absolute URL to the "Contact" page for the partner.
 }
 ```
 
-### About Link
+#### About Link
 
 An absolute URL to the "About" page for the partner.
 
@@ -131,7 +131,7 @@ An absolute URL to the "About" page for the partner.
 }
 ```
 
-### Acceptable Use Policy
+#### Acceptable Use Policy
 
 An absolute or relative URL to an HTML page containing the Acceptable Use Policy text.
 
@@ -143,7 +143,7 @@ An absolute or relative URL to an HTML page containing the Acceptable Use Policy
 }
 ```
 
-### Terms of Use
+#### Terms of Use
 
 An absolute or relative URL to an HTML page containing the Terms of Use text.
 
@@ -155,7 +155,7 @@ An absolute or relative URL to an HTML page containing the Terms of Use text.
 }
 ```
 
-### Terms of Service
+#### Terms of Service
 
 An absolute or relative URL to an HTML page containing the Terms of Service text.
 
@@ -167,7 +167,7 @@ An absolute or relative URL to an HTML page containing the Terms of Service text
 }
 ```
 
-### Privacy Policy
+#### Privacy Policy
 
 An absolute or relative URL to an HTML page containing the Privacy Policy text.
 
@@ -179,7 +179,7 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 }
 ```
 
-### Processing Instructions
+#### Processing Instructions
 
 An absolute or relative URL to an HTML page containing instructions for email processing.
 
@@ -191,7 +191,7 @@ An absolute or relative URL to an HTML page containing instructions for email pr
 }
 ```
 
-### Online Help
+#### Online Help
 
 An absolute or relative URL to the application's online help.
 
@@ -203,7 +203,7 @@ An absolute or relative URL to the application's online help.
 }
 ```
 
-### Notification Email Alias
+#### Notification Email Alias
 
 The alias to use for the sender when sending email notifications.
 
@@ -215,7 +215,7 @@ The alias to use for the sender when sending email notifications.
 }
 ```
 
-### Notification Email Address
+#### Notification Email Address
 
 The email address to use for the sender when sending email notifications.
 
@@ -227,7 +227,7 @@ The email address to use for the sender when sending email notifications.
 }
 ```
 
-### API Notification Email Alias
+#### API Notification Email Alias
 
 The alias to use for the sender when sending email notifications for the Remark Web API.
 
@@ -239,7 +239,7 @@ The alias to use for the sender when sending email notifications for the Remark 
 }
 ```
 
-### API Notification Email Address
+#### API Notification Email Address
 
 The email address to use for the sender when sending email notifications for the Remark Web API.
 
@@ -251,7 +251,7 @@ The email address to use for the sender when sending email notifications for the
 }
 ```
 
-### Host Name
+#### Host Name
 
 The hostname where the application is being hosted.
 
@@ -263,7 +263,7 @@ The hostname where the application is being hosted.
 }
 ```
 
-### Incoming Email Domain
+#### Incoming Email Domain
 
 The domain to allow email submissions from.
 
@@ -275,13 +275,13 @@ The domain to allow email submissions from.
 }
 ```
 
-# Email Templates
+## Email Templates
 
 Remark Test Grading Cloud Edition comes with default email templates which will be used when sending email notifications. These default templates are able to be customized using the provided set of properties.
 
 It is also possible to use custom email templates.
 
-## Table of Contents
+### Table of Contents
 - [Default Email Properties](#default-email-properties)
     - [Application Name](#application-name)
     - [Email Summary](#email-summary)
@@ -293,42 +293,42 @@ It is also possible to use custom email templates.
     - [Company](#company)
     - [Footer](#footer)
 
-## Default Email Properties
+### Default Email Properties
 
 The default email templates can be customized using an existing set of properties, which can be modified on a per-category basis.
 
-### Application Name
+#### Application Name
 
 The name of the application.
 
-### Email Summary
+#### Email Summary
 
 A short summary of the email.
 
-### Header
+#### Header
 
 The header for the email.
 
-### Title
+#### Title
 
 The title of the email.
 
-### Body
+#### Body
 
 The body of the email.
 
-### Notes
+#### Notes
 
 Any additional notes for the email recipient.
 
-### Year
+#### Year
 
 The current calendar year.
 
-### Company
+#### Company
 
 The name of the company.
 
-### Footer
+#### Footer
 
 The footer for the email.
