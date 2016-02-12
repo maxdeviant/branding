@@ -302,7 +302,7 @@ The following elements within the application are currently eligible for theming
 
 **Header Screenshot**
 
-![Header Screenshot](images/header.png)
+![Header Screenshot](https://github.com/remarksoftware/branding/blob/master/images/header.png)
 
 #### Main Application
 
@@ -319,7 +319,7 @@ The following elements within the application are currently eligible for theming
 
 **Footer Screenshot**
 
-![Footer Screenshot](images/footer.png)
+![Footer Screenshot](https://github.com/remarksoftware/branding/blob/master/images/footer.png)
 
 ---
 
@@ -331,7 +331,7 @@ It is also possible to use custom email templates.
 
 **Default Email Template**
 
-![Default Email Template Screenshot](images/default-email-template.png)
+![Default Email Template Screenshot](https://github.com/remarksoftware/branding/blob/master/images/default-email-template.png)
 
 ### Table of Contents
 - [Default Email Properties](#default-email-properties)
