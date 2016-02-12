@@ -1,5 +1,7 @@
 # Remark Partner Branding
 
+This document provides information relating to customizing Remark Test Grading Cloud Edition for an individual partner's usage.
+
 ## Table of Contents
 - [Partner Configuration](#partner-configuration)
 - [Application Theming](#application-theming)
@@ -34,7 +36,18 @@ Remark Test Grading Cloud Edition is able to be configured for an individual par
 
 ### Customizable Fields
 
-Remark Test Grading Cloud Edition allows partners to customize the following fields when branding the application:
+Remark Test Grading Cloud Edition allows partners to customize the application using a [JSON](https://en.wikipedia.org/wiki/JSON) document.
+
+**Example:**
+```json
+{
+    "partnerName": "Gravic, Inc.",
+    "productName": "Remark Test Grading Cloud Edition",
+    "brandLogoUrl": "/Content/branding/Gravic/images/logo.png"
+}
+```
+
+The following properties are available for customization:
 
 #### Partner Name
 
@@ -102,6 +115,8 @@ An absolute or relative URL to the image to use as the application's favicon.
 
 An absolute or relative URL to the image to display as the logo for the partner.
 
+This image will be shown in the application's [header](#header).
+
 **Example:**
 
 ```json
@@ -113,6 +128,8 @@ An absolute or relative URL to the image to display as the logo for the partner.
 #### Contact Link
 
 An absolute URL to the "Contact" page for the partner.
+
+This link will be available through the application's [footer](#footer).
 
 **Example:**
 
@@ -126,6 +143,8 @@ An absolute URL to the "Contact" page for the partner.
 
 An absolute URL to the "About" page for the partner.
 
+This link will be available through the application's [footer](#footer).
+
 **Example:**
 
 ```json
@@ -137,6 +156,8 @@ An absolute URL to the "About" page for the partner.
 #### Acceptable Use Policy
 
 An absolute or relative URL to an HTML page containing the Acceptable Use Policy text.
+
+This link will be available through the application's [footer](#footer).
 
 **Example:**
 
@@ -162,6 +183,8 @@ An absolute or relative URL to an HTML page containing the Terms of Use text.
 
 An absolute or relative URL to an HTML page containing the Terms of Service text.
 
+This link will be available through the application's [footer](#footer).
+
 **Example:**
 
 ```json
@@ -173,6 +196,8 @@ An absolute or relative URL to an HTML page containing the Terms of Service text
 #### Privacy Policy
 
 An absolute or relative URL to an HTML page containing the Privacy Policy text.
+
+This link will be available through the application's [footer](#footer).
 
 **Example:**
 
@@ -190,13 +215,15 @@ An absolute or relative URL to an HTML page containing instructions for email pr
 
 ```json
 {
-    "processingInstructionsUrl": ""
+    "processingInstructionsUrl": "/Content/branding/Gravic/templates/processing-instructions.html"
 }
 ```
 
 #### Online Help
 
 An absolute or relative URL to the application's online help.
+
+This link will be available through the application's [header](#header);
 
 **Example:**
 
@@ -257,6 +284,8 @@ The email address to use for the sender when sending email notifications for the
 #### Host Name
 
 The hostname where the application is being hosted.
+
+If the application is being hosted somewhere other than `*.gravic.com`, additional configuration will be required.
 
 **Example:**
 
@@ -327,7 +356,7 @@ The following elements within the application are currently eligible for theming
 
 Remark Test Grading Cloud Edition comes with default email templates which will be used when sending email notifications. These default templates are able to be customized using the provided set of properties.
 
-It is also possible to use custom email templates.
+It is also possible to use custom email templates. These templates will be able to make use of the same property substitutions as the default email templates.
 
 **Default Email Template**
 
