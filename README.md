@@ -173,6 +173,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 
 ### Processing Instructions
 
+An absolute or relative URL to an HTML page containing instructions for email processing.
+
 **Example:**
 
 ```json
@@ -182,6 +184,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 ```
 
 ### Online Help
+
+An absolute or relative URL to the application's online help.
 
 **Example:**
 
@@ -193,6 +197,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 
 ### Notification Email Alias
 
+The alias to use for the sender when sending email notifications.
+
 **Example:**
 
 ```json
@@ -202,6 +208,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 ```
 
 ### Notification Email Address
+
+The email address to use for the sender when sending email notifications.
 
 **Example:**
 
@@ -213,6 +221,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 
 ### API Notification Email Alias
 
+The alias to use for the sender when sending email notifications for the Remark Web API.
+
 **Example:**
 
 ```json
@@ -222,6 +232,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 ```
 
 ### API Notification Email Address
+
+The email address to use for the sender when sending email notifications for the Remark Web API.
 
 **Example:**
 
@@ -233,6 +245,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 
 ### Host Name
 
+The hostname where the application is being hosted.
+
 **Example:**
 
 ```json
@@ -242,6 +256,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 ```
 
 ### Incoming Email Domain
+
+The domain to allow email submissions from.
 
 **Example:**
 
