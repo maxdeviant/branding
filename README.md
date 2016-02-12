@@ -1,17 +1,33 @@
 # Remark Test Grading Cloud Edition - Partner Branding
 
 ## Table of Contents
-- [Partner Configuration]
-    - [Partner Name]
-    - [Partner Short Name]
-    - [Product Name]
+- [Partner Configuration](#partner-configuration)
+    - [Partner Name](#partner-name)
+    - [Partner Short Name](#partner-short-name)
+    - [Product Name](#product-name)
+    - [Product Description](#product-description)
+    - [Favicon (Bookmark Icon)](#favicon-bookmark-icon)
+    - [Partner Logo](#partner-logo)
+    - [Contact Link](#contact-link)
+    - [About Link](#about-link)
+    - [Acceptable Use Policy](#acceptable-use-policy)
+    - [Terms of Use](#terms-of-use)
+    - [Terms of Service](#terms-of-service)
+    - [Privacy Policy](#privacy-policy)
+    - [Processing Instructions](#processing-instructions)
+    - [Online Help](#online-help)
+    - [Notification Email Alias](#notification-email-alias)
+    - [Notification Email Address](#notification-email-address)
+    - [API Notification Email Alias](#api-notification-email-alias)
+    - [API Notification Email Address](#api-notification-email-address)
+    - [Host Name](#host-name)
+    - [Incoming Email Domain](#incoming-email-domain)
 
-## [Partner Configuration]: #partner-configuration
+## Partner Configuration
 
 Remark Test Grading Cloud Edition allows partners to customize the following fields when branding the application:
 
 ### Partner Name
-[Partner Name]: #partner-name
 
 The full name of the partner.
 
@@ -157,8 +173,6 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 
 ### Processing Instructions
 
-
-
 **Example:**
 
 ```json
@@ -177,6 +191,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 }
 ```
 
+### Notification Email Alias
+
 **Example:**
 
 ```json
@@ -184,6 +200,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
     "notificationAlias": "Remark Test Grading Cloud Edition"
 }
 ```
+
+### Notification Email Address
 
 **Example:**
 
@@ -193,6 +211,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 }
 ```
 
+### API Notification Email Alias
+
 **Example:**
 
 ```json
@@ -200,6 +220,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
     "statusChangeNotificationEmailAlias": "RWA Notifications"
 }
 ```
+
+### API Notification Email Address
 
 **Example:**
 
@@ -209,6 +231,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
 }
 ```
 
+### Host Name
+
 **Example:**
 
 ```json
@@ -216,6 +240,8 @@ An absolute or relative URL to an HTML page containing the Privacy Policy text.
     "hostName": "remarktesting.gravic.com"
 }
 ```
+
+### Incoming Email Domain
 
 **Example:**
 
