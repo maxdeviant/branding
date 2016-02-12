@@ -286,19 +286,21 @@ The visual styles of Remark Test Grading Cloud Edition are able to be customized
 
 ### Table of Contents
 - [Themeable Elements](#themeable-elements)
-    - [Header Bar](#header-bar)
+    - [Header](#header)
     - [Main Application](#main-application)
-    - [Footer Bar](#footer-bar)
+    - [Footer](#footer)
 
 ### Themeable Elements
 
 The following elements within the application are currently eligible for theming:
 
-#### Header Bar
+#### Header
 
 - Background Color
 - Link Color
 - Link Hover Color
+
+**Header Screenshot**
 
 ![Header Screenshot](images/header.png)
 
@@ -309,11 +311,13 @@ The following elements within the application are currently eligible for theming
 - Link Color
 - Link Hover Color
 
-#### Footer Bar
+#### Footer
 
 - Background Color
 - Link Color
 - Link Hover Color
+
+**Footer Screenshot**
 
 ![Footer Screenshot](images/footer.png)
 
@@ -323,11 +327,11 @@ The following elements within the application are currently eligible for theming
 
 Remark Test Grading Cloud Edition comes with default email templates which will be used when sending email notifications. These default templates are able to be customized using the provided set of properties.
 
+It is also possible to use custom email templates.
+
 **Default Email Template**
 
 ![Default Email Template Screenshot](images/default-email-template.png)
-
-It is also possible to use custom email templates.
 
 ### Table of Contents
 - [Default Email Properties](#default-email-properties)
