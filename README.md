@@ -22,7 +22,6 @@ Remark Test Grading Cloud Edition is able to be configured for an individual par
     - [Contact Link](#contact-link)
     - [About Link](#about-link)
     - [Acceptable Use Policy](#acceptable-use-policy)
-    - [Terms of Use](#terms-of-use)
     - [Terms of Service](#terms-of-service)
     - [Privacy Policy](#privacy-policy)
     - [Processing Instructions](#processing-instructions)
@@ -164,18 +163,6 @@ This link will be available through the application's [footer](#footer).
 ```json
 {
     "acceptableUsePolicyUrl": "/Content/branding/Gravic/templates/acceptable-use-policy.html"
-}
-```
-
-#### Terms of Use
-
-An absolute or relative URL to an HTML page containing the Terms of Use text.
-
-**Example:**
-
-```json
-{
-    "termsOfUseUrl": "/Content/branding/Gravic/templates/terms-of-use.html"
 }
 ```
 
