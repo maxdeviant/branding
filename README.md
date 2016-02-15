@@ -22,15 +22,12 @@ Remark Test Grading Cloud Edition is able to be configured for an individual par
     - [Contact Link](#contact-link)
     - [About Link](#about-link)
     - [Acceptable Use Policy](#acceptable-use-policy)
-    - [Terms of Use](#terms-of-use)
     - [Terms of Service](#terms-of-service)
     - [Privacy Policy](#privacy-policy)
     - [Processing Instructions](#processing-instructions)
     - [Online Help](#online-help)
     - [Notification Email Alias](#notification-email-alias)
     - [Notification Email Address](#notification-email-address)
-    - [API Notification Email Alias](#api-notification-email-alias)
-    - [API Notification Email Address](#api-notification-email-address)
     - [Host Name](#host-name)
     - [Incoming Email Domain](#incoming-email-domain)
 
@@ -167,18 +164,6 @@ This link will be available through the application's [footer](#footer).
 }
 ```
 
-#### Terms of Use
-
-An absolute or relative URL to an HTML page containing the Terms of Use text.
-
-**Example:**
-
-```json
-{
-    "termsOfUseUrl": "/Content/branding/Gravic/templates/terms-of-use.html"
-}
-```
-
 #### Terms of Service
 
 An absolute or relative URL to an HTML page containing the Terms of Service text.
@@ -254,30 +239,6 @@ The email address to use for the sender when sending email notifications.
 ```json
 {
     "notificationEmail": "no-reply@gravic.com"
-}
-```
-
-#### API Notification Email Alias
-
-The alias to use for the sender when sending email notifications for the Remark Web API.
-
-**Example:**
-
-```json
-{
-    "statusChangeNotificationEmailAlias": "RWA Notifications"
-}
-```
-
-#### API Notification Email Address
-
-The email address to use for the sender when sending email notifications for the Remark Web API.
-
-**Example:**
-
-```json
-{
-    "statusChangeNotifcationEmail": "rwanotifications@gravic.com"
 }
 ```
 
