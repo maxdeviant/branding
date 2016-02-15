@@ -285,7 +285,7 @@ The email address to use for the sender when sending email notifications for the
 
 The hostname where the application is being hosted.
 
-If the application is being hosted somewhere other than `*.gravic.com`, additional configuration will be required.
+If the application is being hosted somewhere other than `*.gravic.com`, additional configuration will be required. Please contact Gravic, Inc. for more information on configuring the application with a custom domain name.
 
 **Example:**
 
